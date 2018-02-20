@@ -9,6 +9,7 @@ import {
   StyleSheet
 } from "react-native";
 import { getMeasures } from "../../utils/setStyle";
+import { margin, imageHeight } from "../../utils/constants";
 
 const { width } = Dimensions.get("window");
 
@@ -25,19 +26,13 @@ export default class DetailsScreen extends Component {
   };
 
   animatedTextStyle = () => {
-    const transform = [
-      { translateY: this.props.titleTranslate },
-      { perspective: 1000 }
-    ];
+    const transform = [{ translateY: this.props.titleTranslate }];
 
     return { transform };
   };
 
   animatedContentStyle = () => {
-    const transform = [
-      { translateY: this.props.contentTranslate },
-      { perspective: 1000 }
-    ];
+    const transform = [{ translateY: this.props.contentTranslate }];
     return { transform };
   };
 
@@ -78,7 +73,8 @@ export default class DetailsScreen extends Component {
 
 const styles = StyleSheet.create({
   title: {
-    fontSize: 30
+    fontSize: 30,
+    color: "black"
   },
   view: {
     flex: 1,
@@ -89,7 +85,8 @@ const styles = StyleSheet.create({
   },
   content: {
     fontSize: 16,
+    color: "black",
     margin: 10
   },
-  image: { height: 200, width: width - 40 }
+  image: { height: imageHeight, width: width - margin, borderRadius: 8 }
 });

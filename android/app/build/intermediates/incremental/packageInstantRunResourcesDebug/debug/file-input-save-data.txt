@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Tue Feb 20 12:45:55 CET 2018
+1.base=/Users/rambrogi/Projects/etc/radar-example/android/app/build/intermediates/assets/debug
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=ASSET
+0.path=index.android.bundle
+0.set=ASSET
+0.base=/Users/rambrogi/Projects/etc/radar-example/android/app/build/intermediates/assets/debug
+1.path=index.android.bundle.meta

@@ -9,6 +9,11 @@ import {
   StyleSheet
 } from "react-native";
 import { getStyle } from "../../utils/setStyle";
+import {
+  margin,
+  imageHeight,
+  thumbHeightAndWidth
+} from "../../utils/constants";
 
 const { height, width } = Dimensions.get("window");
 
@@ -25,11 +30,17 @@ export default class Transition extends Component {
         // duration: 10000,
         useNativeDriver: true
       });
+
+    const translateX = defaultAnimation(
+      this.props.translateX,
+      width / 2 - 77.5
+    );
     const opacityAnimation = defaultAnimation(this.props.opacity, 1);
     const titleAnimation = defaultAnimation(this.props.titleTranslate, 0);
     const contentAnimation = defaultAnimation(this.props.contentTranslate, 0);
 
     Animated.sequence([
+      translateX,
       opacityAnimation,
       Animated.parallel([titleAnimation, contentAnimation])
     ]).start();
@@ -46,15 +57,14 @@ export default class Transition extends Component {
     const oSX = [1, dest.width / source.width];
 
     const translateY = t(defaultInput, oTY);
-    const translateX = t(defaultInput, oTX);
+    // const translateX = t(defaultInput, oTX);
     const scaleY = t(defaultInput, oSY);
     const scaleX = t(defaultInput, oSX);
     const transform = [
       { translateY },
-      { translateX },
+      { translateX: this.props.translateX },
       { scaleY },
-      { scaleX },
-      { perspective: 1000 }
+      { scaleX }
     ];
 
     return { transform };
@@ -62,9 +72,9 @@ export default class Transition extends Component {
   getImageTransform = ({ dest }) => {
     const t = this.opacityInterpolate;
     const iSX = [0, dest.height / dest.width, 1];
-    const oSX = [1.77, 1.15, 1.086];
+    const oSX = [1.77, 1.15, 1.05];
     const scaleX = { scaleX: t(iSX, oSX) };
-    const transform = [scaleX, { perspective: 1000 }];
+    const transform = [scaleX];
 
     return { transform };
   };
@@ -95,8 +105,10 @@ export default class Transition extends Component {
           ]}
         >
           <Animated.Image
+            prefetch={data.uri}
+            resizeMethod="scale"
             resizeMode="stretch"
-            source={{ uri: data.uri }}
+            source={{ uri: data.uri, cache: "force-cache" }}
             style={this.getAnimatedImageStyle({ dest })}
           />
         </Animated.View>
@@ -114,7 +126,8 @@ const styles = StyleSheet.create({
   },
   animatedView: {
     position: "absolute",
-    overflow: "hidden"
+    overflow: "hidden",
+    borderRadius: 4
     // borderColor: "red",
     // borderWidth: 1,
     // borderStyle: "solid",
@@ -122,6 +135,7 @@ const styles = StyleSheet.create({
   image: {
     alignSelf: "center",
     flex: 1,
-    minWidth: 75
+    minWidth: thumbHeightAndWidth,
+    borderRadius: 4
   }
 });

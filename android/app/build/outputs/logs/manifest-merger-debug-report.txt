@@ -4,18 +4,18 @@ ADDED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/Andro
 INJECTED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/AndroidManifest.xml:1:1-32:12
 INJECTED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/AndroidManifest.xml:1:1-32:12
 INJECTED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/AndroidManifest.xml:1:1-32:12
-MERGED from [com.facebook.react:react-native:0.52.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/react-native-0.52.0.aar/5975cf6dc44939a2908c160f3bcc430a/AndroidManifest.xml:2:1-15:12
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5a3f4347c67c015815633d6710d6ddf/AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:support-v4:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/42904a0549c372aa198c8bfaa26d0195/AndroidManifest.xml:17:1-24:12
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/3befcd7725ca6ea0465963fc137bfab9/AndroidManifest.xml:10:1-18:12
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/265205ecc3fb53037436401e093519c4/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/c36cd02f92921a11fbcf1fe78aaf1f5d/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/3be9815f80eb1c4888bd472c01b3ea7b/AndroidManifest.xml:1:1-4:12
-MERGED from [org.webkit:android-jsc:r174650] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/a6fa43ea6a6e301e8abc60292f7ba078/AndroidManifest.xml:1:1-3:12
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/bc40e0a3f1d203fe5c987992d37394aa/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/f2513b8cad691d867909403bf442a348/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/9caa8f679a6d7f409ed029a40d8f0962/AndroidManifest.xml:2:1-9:12
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/c63541374a93eb9fac00dbd6c3934ee4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.react:react-native:0.52.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/react-native-0.52.0.aar/9b64552b474fc6d94fe06be97410df8f/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/0b6ba2beb1ef84076bec29d2396c6af9/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/47b1ca8ab73a9d0fc76d554560252c96/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/c9c39d30ae30b27cc9a537af146ab94a/AndroidManifest.xml:10:1-18:12
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/4af75d61749406b12e0bdbd6ea14d356/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/089cec106ee5d05ada17c5ce487b1299/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/b5c3d2ea99100059d2a5fe44c03a4191/AndroidManifest.xml:1:1-4:12
+MERGED from [org.webkit:android-jsc:r174650] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/f339f7f20ff6abef6ca85d8bb677c76f/AndroidManifest.xml:1:1-3:12
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/5d3d172ae3701c5e32bfdf4afed174fd/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/1d2ca5e985487506093130754bc8d448/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/6bdaa71576f346646edb83d836288dd5/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/3b0f2f4cedeb1655a74ba72e54d877ff/AndroidManifest.xml:2:1-9:12
 INJECTED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/AndroidManifest.xml:1:1-32:12
 INJECTED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/AndroidManifest.xml:1:1-32:12
 INJECTED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/AndroidManifest.xml:1:1-32:12
@@ -39,36 +39,36 @@ ADDED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/Andro
 		ADDED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
 ADDED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/AndroidManifest.xml:7:5-77
-MERGED from [com.facebook.react:react-native:0.52.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/react-native-0.52.0.aar/5975cf6dc44939a2908c160f3bcc430a/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.52.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/react-native-0.52.0.aar/5975cf6dc44939a2908c160f3bcc430a/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.52.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/react-native-0.52.0.aar/9b64552b474fc6d94fe06be97410df8f/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.52.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/react-native-0.52.0.aar/9b64552b474fc6d94fe06be97410df8f/AndroidManifest.xml:11:5-78
 	android:name
 		ADDED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/AndroidManifest.xml:7:22-75
 uses-sdk
 ADDED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/AndroidManifest.xml:9:5-11:41
 INJECTED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/AndroidManifest.xml:9:5-11:41
 INJECTED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/AndroidManifest.xml:9:5-11:41
-MERGED from [com.facebook.react:react-native:0.52.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/react-native-0.52.0.aar/5975cf6dc44939a2908c160f3bcc430a/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.52.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/react-native-0.52.0.aar/5975cf6dc44939a2908c160f3bcc430a/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5a3f4347c67c015815633d6710d6ddf/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5a3f4347c67c015815633d6710d6ddf/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/42904a0549c372aa198c8bfaa26d0195/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/42904a0549c372aa198c8bfaa26d0195/AndroidManifest.xml:20:5-43
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/3befcd7725ca6ea0465963fc137bfab9/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/3befcd7725ca6ea0465963fc137bfab9/AndroidManifest.xml:14:5-16:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/265205ecc3fb53037436401e093519c4/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/265205ecc3fb53037436401e093519c4/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/c36cd02f92921a11fbcf1fe78aaf1f5d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/c36cd02f92921a11fbcf1fe78aaf1f5d/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/3be9815f80eb1c4888bd472c01b3ea7b/AndroidManifest.xml:2:3-70
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/3be9815f80eb1c4888bd472c01b3ea7b/AndroidManifest.xml:2:3-70
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/bc40e0a3f1d203fe5c987992d37394aa/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/bc40e0a3f1d203fe5c987992d37394aa/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/f2513b8cad691d867909403bf442a348/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/f2513b8cad691d867909403bf442a348/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/9caa8f679a6d7f409ed029a40d8f0962/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/9caa8f679a6d7f409ed029a40d8f0962/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/c63541374a93eb9fac00dbd6c3934ee4/AndroidManifest.xml:5:5-7:41
-MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/c63541374a93eb9fac00dbd6c3934ee4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.52.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/react-native-0.52.0.aar/9b64552b474fc6d94fe06be97410df8f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.52.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/react-native-0.52.0.aar/9b64552b474fc6d94fe06be97410df8f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/0b6ba2beb1ef84076bec29d2396c6af9/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/0b6ba2beb1ef84076bec29d2396c6af9/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/47b1ca8ab73a9d0fc76d554560252c96/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/47b1ca8ab73a9d0fc76d554560252c96/AndroidManifest.xml:20:5-43
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/c9c39d30ae30b27cc9a537af146ab94a/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/textlayoutbuilder-1.0.0.aar/c9c39d30ae30b27cc9a537af146ab94a/AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/4af75d61749406b12e0bdbd6ea14d356/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/fresco-1.3.0.aar/4af75d61749406b12e0bdbd6ea14d356/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/089cec106ee5d05ada17c5ce487b1299/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/imagepipeline-okhttp3-1.3.0.aar/089cec106ee5d05ada17c5ce487b1299/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/b5c3d2ea99100059d2a5fe44c03a4191/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/b5c3d2ea99100059d2a5fe44c03a4191/AndroidManifest.xml:2:3-70
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/5d3d172ae3701c5e32bfdf4afed174fd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/drawee-1.3.0.aar/5d3d172ae3701c5e32bfdf4afed174fd/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/1d2ca5e985487506093130754bc8d448/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/imagepipeline-1.3.0.aar/1d2ca5e985487506093130754bc8d448/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/6bdaa71576f346646edb83d836288dd5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/imagepipeline-base-1.3.0.aar/6bdaa71576f346646edb83d836288dd5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/3b0f2f4cedeb1655a74ba72e54d877ff/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.3.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/fbcore-1.3.0.aar/3b0f2f4cedeb1655a74ba72e54d877ff/AndroidManifest.xml:5:5-7:41
 INJECTED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/AndroidManifest.xml:9:5-11:41
 INJECTED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/AndroidManifest.xml:9:5-11:41
 	android:targetSdkVersion
@@ -81,16 +81,16 @@ INJECTED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/An
 		INJECTED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/AndroidManifest.xml
 application
 ADDED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/AndroidManifest.xml:13:5-30:19
-MERGED from [com.facebook.react:react-native:0.52.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/react-native-0.52.0.aar/5975cf6dc44939a2908c160f3bcc430a/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.52.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/react-native-0.52.0.aar/5975cf6dc44939a2908c160f3bcc430a/AndroidManifest.xml:13:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5a3f4347c67c015815633d6710d6ddf/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5a3f4347c67c015815633d6710d6ddf/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/42904a0549c372aa198c8bfaa26d0195/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/42904a0549c372aa198c8bfaa26d0195/AndroidManifest.xml:22:5-20
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/3be9815f80eb1c4888bd472c01b3ea7b/AndroidManifest.xml:3:3-17
-MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/3be9815f80eb1c4888bd472c01b3ea7b/AndroidManifest.xml:3:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/a6fa43ea6a6e301e8abc60292f7ba078/AndroidManifest.xml:2:3-17
-MERGED from [org.webkit:android-jsc:r174650] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/a6fa43ea6a6e301e8abc60292f7ba078/AndroidManifest.xml:2:3-17
+MERGED from [com.facebook.react:react-native:0.52.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/react-native-0.52.0.aar/9b64552b474fc6d94fe06be97410df8f/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.52.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/react-native-0.52.0.aar/9b64552b474fc6d94fe06be97410df8f/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/0b6ba2beb1ef84076bec29d2396c6af9/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/0b6ba2beb1ef84076bec29d2396c6af9/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/47b1ca8ab73a9d0fc76d554560252c96/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.0.1] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/support-v4-23.0.1.aar/47b1ca8ab73a9d0fc76d554560252c96/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/b5c3d2ea99100059d2a5fe44c03a4191/AndroidManifest.xml:3:3-17
+MERGED from [com.facebook.soloader:soloader:0.1.0] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/soloader-0.1.0.aar/b5c3d2ea99100059d2a5fe44c03a4191/AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/f339f7f20ff6abef6ca85d8bb677c76f/AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] /Users/rambrogi/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/f339f7f20ff6abef6ca85d8bb677c76f/AndroidManifest.xml:2:3-17
 	android:label
 		ADDED from /Users/rambrogi/Projects/etc/radar-example/android/app/src/main/AndroidManifest.xml:16:7-39
 	android:icon

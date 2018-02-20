@@ -1,28 +1,44 @@
 import React, { Component } from "react";
 import {
   Animated,
+  Button,
   Dimensions,
   FlatList,
   TouchableOpacity,
   TouchableHighlight,
+  TouchableWithoutFeedback,
   Image,
+  ImageBackground,
   View,
   StyleSheet,
   Text
 } from "react-native";
 import { getMeasures } from "../../utils/setStyle";
+import {
+  margin,
+  imageHeight,
+  thumbHeightAndWidth
+} from "../../utils/constants";
 
-const { height } = Dimensions.get("window");
+const { width, height } = Dimensions.get("window");
 
 export default class HomeScreen extends Component {
   nodes = {};
 
   handleAnimations = id => {
-    const animation = itemId =>
-      Animated.timing(this.props.translateY[itemId], {
-        toValue: itemId < id ? -height : height,
+    const translateTitle = Animated.timing(this.props.thumbTitleTranslate, {
+      toValue: width
+    });
+
+    const animation = itemId => {
+      const toValue = itemId < id ? -height : height;
+      let options = {
+        toValue,
         useNativeDriver: true
-      });
+      };
+
+      return Animated.timing(this.props.translateY[itemId], options);
+    };
 
     const animations = this.props.data.reduce(
       (acc, item, index) =>
@@ -30,37 +46,50 @@ export default class HomeScreen extends Component {
       []
     );
 
-    Animated.parallel(animations).start(() => this.props.onPress(id));
+    const parallel = Animated.parallel(animations);
+
+    Animated.sequence([translateTitle, parallel]).start(() =>
+      this.props.onPress(id)
+    );
   };
 
   animatedImageStyle = id => {
     const translateY = this.props.translateY[id];
-    const transform = [{ translateY }, { perspective: 1000 }];
 
-    return { transform };
+    const transform = [{ translateY }];
+
+    return { flexDirection: "row", alignItems: "center", transform };
   };
 
   animateViewStyle = () => {
-    const opacity = this.props.opacity.interpolate({
-      inputRange: [0, 0.05, 1],
-      outputRange: [1, 0, 0]
-    });
+    const ioRange = { inputRange: [0, 0.05, 1], outputRange: [1, 0, 0] };
+    const opacity = this.props.opacity.interpolate(ioRange);
 
     return { opacity };
+  };
+
+  animatedTitleStyle = () => {
+    const transform = {
+      transform: [{ translateX: this.props.thumbTitleTranslate }]
+    };
+
+    return transform;
   };
 
   renderItems = item => {
     const handlePress = () => this.handleAnimations(item.id);
 
-    const handleOnLayout = () =>
-      getMeasures({
+    const handleOnLayout = () => {
+      const options = {
         id: item.id,
         nodes: this.nodes,
         callback: this.props.onLayout
-      });
+      };
+      return getMeasures(options);
+    };
 
     return (
-      <TouchableHighlight key={item.id} onPress={handlePress}>
+      <View key={item.id}>
         <Animated.View
           onLayout={handleOnLayout}
           style={[this.animatedImageStyle(item.id)]}
@@ -68,11 +97,22 @@ export default class HomeScreen extends Component {
           <Image
             onLayout={handleOnLayout}
             ref={node => (this.nodes[item.id] = node)}
-            source={{ uri: item.uri }}
+            source={{ uri: item.uri, cache: "force-cache" }}
             style={[styles.image]}
           />
+          <Animated.Text style={[styles.title, this.animatedTitleStyle()]}>
+            {item.title}
+          </Animated.Text>
         </Animated.View>
-      </TouchableHighlight>
+        <TouchableWithoutFeedback onPress={handlePress}>
+          <View
+            style={[
+              styles.image,
+              { opacity: 0, marginTop: -thumbHeightAndWidth }
+            ]}
+          />
+        </TouchableWithoutFeedback>
+      </View>
     );
   };
 
@@ -90,10 +130,17 @@ const styles = StyleSheet.create({
   view: {
     flex: 1,
     alignSelf: "flex-start",
-    justifyContent: "flex-end"
+    justifyContent: "flex-end",
+    backgroundColor: "#fff"
   },
   image: {
-    height: 75,
-    width: 75
+    height: thumbHeightAndWidth,
+    width: thumbHeightAndWidth,
+    borderRadius: 8,
+    marginBottom: 5
+  },
+  title: {
+    padding: 5,
+    width: "80%"
   }
 });

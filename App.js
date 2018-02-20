@@ -54,15 +54,22 @@ export default class App extends React.Component {
   }
 
   opacity = new Animated.Value(0);
+
   translateY = data.reduce(
     (acc, item) => ({ ...acc, [item.id]: new Animated.Value(0) }),
     {}
   );
+  translateX = new Animated.Value(0);
   titleTranslate = new Animated.Value(-height);
   contentTranslate = new Animated.Value(height);
+  thumbTitleTranslate = new Animated.Value(0);
 
   handleSelected = selected => this.setState({ selected: selected - 1 });
   handleClose = () => {
+    const thumbTitle = Animated.timing(this.thumbTitleTranslate, {
+      toValue: 0
+    });
+
     const animations = data.reduce(
       (acc, item, index) =>
         this.state.selected !== index
@@ -93,11 +100,20 @@ export default class App extends React.Component {
       useNativeDriver: true
     });
 
+    const translateX = Animated.timing(this.translateX, {
+      toValue: 0,
+      useNativeDriver: true
+    });
+
     Animated.sequence([
       Animated.parallel([titleAnimation, contentAnimation]),
-      opacityAnimation
+      opacityAnimation,
+      translateX
     ]).start(() => {
-      this.setState({ selected: null }, Animated.parallel(animations).start);
+      this.setState(
+        { selected: null },
+        Animated.sequence([Animated.parallel(animations), thumbTitle]).start
+      );
     });
   };
 
@@ -116,6 +132,7 @@ export default class App extends React.Component {
           onLayout={this.sourceLayout}
           data={data}
           translateY={this.translateY}
+          thumbTitleTranslate={this.thumbTitleTranslate}
         />
         <Transition
           opacity={this.opacity}
@@ -126,6 +143,7 @@ export default class App extends React.Component {
           }}
           selected={this.state.selected}
           titleTranslate={this.titleTranslate}
+          translateX={this.translateX}
           contentTranslate={this.contentTranslate}
         />
         <DetailsScreen
