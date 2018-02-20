@@ -4,7 +4,7 @@
             "outputFile": "/Users/rambrogi/Projects/etc/radar-example/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-bg/values-bg.xml",
             "map": [
                 {
-                    "source": "/Users/rambrogi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/0b6ba2beb1ef84076bec29d2396c6af9/res/values-bg/values-bg.xml",
+                    "source": "/Users/rambrogi/.gradle/caches/transforms-1/files-1.1/appcompat-v7-23.0.1.aar/f5a3f4347c67c015815633d6710d6ddf/res/values-bg/values-bg.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
